@@ -149,3 +149,13 @@ h2{
     color: white;
     border-top: solid 5px #4aaaa5;
 }
+@media only screen and (max-width: 980px){
+    .main_section{
+        width: 60%;
+        margin-left: 5%
+    }
+    .head{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
