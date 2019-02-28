@@ -8,6 +8,7 @@ body{
 .navbar{
     background-color: #ffffff;
     height: 50px;
+    width: 100%;
 
 }
 
@@ -68,7 +69,7 @@ body{
 }
 
 .thumbwrap{
-    height: 100px;
+    /* height: 100px; */
     width: 200px;
     position: relative;
     margin: 20px;
@@ -82,12 +83,12 @@ body{
 }
 
 .label{
-    height: 50px;
+    height: 25px;
     width: 200px;
     background-color: #4aaaa5;
     text-align: center;
     color: white;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 0px 0px;
     z-index: 0;
     position: absolute;
     bottom: 10px;
@@ -152,10 +153,42 @@ h2{
 @media only screen and (max-width: 980px){
     .main_section{
         width: 60%;
-        margin-left: 5%
+        margin-left: 5%;
     }
     .head{
         margin-left: 5%;
         margin-right: 5%;
     }
 }
+
+/* @media only screen and (max-width: 768){
+
+}*/
+
+@media only screen and (max-width: 640px){
+    .navbar{
+         position: absolute;
+         top:50px;
+         left: 20px;
+         margin: 0% 30% 0% 30%;
+    }
+
+    .name{
+        width: 100%;
+    }
+    .head{
+        height: 40px;
+    }
+
+    .main_section{
+        margin: 5% 5% 0% 5%;
+        width: auto;
+    }
+    .navlink{
+        float:left;
+    }
+
+    .wrapper{
+        position: relative;
+    }
+} 
